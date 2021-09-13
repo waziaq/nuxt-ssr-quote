@@ -1,79 +1,22 @@
 <template>
-  <v-row justify='center' align='center'>
-    <v-col cols='12' sm='8' md='6'>
-      <v-card class='logo py-4 d-flex justify-center'>
-        <NuxtLogo />
-        <VuetifyLogo />
-      </v-card>
-      <v-card>
-        <v-card-title class='headline'>
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower
-            developers to create amazing applications.</p>
-          <p>
-            For more information on Vuetify, check out the <a
-            href='https://vuetifyjs.com'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            documentation
-          </a>.
-          </p>
-          <p>
-            If you have questions, please join the official <a
-            href='https://chat.vuetifyjs.com/'
-            target='_blank'
-            rel='noopener noreferrer'
-            title='chat'
-          >
-            discord
-          </a>.
-          </p>
-          <p>
-            Find a bug? Report it on the github <a
-            href='https://github.com/vuetifyjs/vuetify/issues'
-            target='_blank'
-            rel='noopener noreferrer'
-            title='contribute'
-          >
-            issue board
-          </a>.
-          </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the
-            future.</p>
-          <div class='text-xs-right'>
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class='my-3'>
-          <a
-            href='https://nuxtjs.org/'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Nuxt Documentation
-          </a>
-          <br>
-          <a
-            href='https://github.com/nuxt/nuxt.js'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color='primary'
-            nuxt
-            to='/inspire'
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-col>
-  </v-row>
+  <div>
+    <div class='my-5 mb-8'>
+      <h2 class='text-center mx-3'>Spoil you Loved one with a random quote!</h2>
+    </div>
+    <div>
+      <v-img
+        class='rounded-lg'
+        contain
+        lazy-src='https://i.guim.co.uk/img/media/bdf23d7b1bbb200cf72ae0c22f051bf926445b20/1_0_5075_3046/master/5075.jpg?width=1300&quality=85&auto=format&fit=max&s=4dc466a613c618911a2641c32dcedbcd'
+        max-height='300'
+        max-width='500'
+        src='https://i.guim.co.uk/img/media/bdf23d7b1bbb200cf72ae0c22f051bf926445b20/1_0_5075_3046/master/5075.jpg?width=1300&quality=85&auto=format&fit=max&s=4dc466a613c618911a2641c32dcedbcd'
+      ></v-img>
+    </div>
+    <div class='mx-auto text-center'>
+      <v-btn class='mt-n5' max-width='100%' width='30vw' color='success' dark>
+        Get Random Quote
+      </v-btn>
+    </div>
+  </div>
 </template>
