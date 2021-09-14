@@ -14,7 +14,7 @@
       ></v-img>
     </div>
     <div class='mx-auto text-center'>
-      <v-btn class='mt-n5' max-width='100%' width='30vw' color='success' dark>
+      <v-btn class='mt-n5' max-width='100%' width='50vw' color='accent' dark to='/quotes'>
         Get Random Quote
       </v-btn>
     </div>
